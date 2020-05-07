@@ -15,7 +15,7 @@ class KylinQuery(Script):
         )
         Execute('cd ' + params.install_dir + '; wget ' + params.downloadlocation + ' -O kylin.tar.gz  ')
         Execute('cd ' + params.install_dir + '; tar -xvf kylin.tar.gz')
-        Execute('cd ' + params.install_dir + ';rm -rf latest; ln -s apache-kylin* latest')
+        Execute('cd ' + params.install_dir + '; ln -s apache-kylin-3.0.1-bin-hadoop3 latest')
                 
 
     def configure(self, env):  

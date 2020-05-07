@@ -251,7 +251,7 @@ kylin.engine.spark.max-partition=5000
   </property>
 <property>
     <name>download.location</name>
-    <value>https://ftp.itu.edu.tr/Mirror/Apache/kylin/apache-kylin-3.0.1/apache-kylin-3.0.1-bin-hbase1x.tar.gz</value>
+    <value>https://ftp.itu.edu.tr/Mirror/Apache/kylin/apache-kylin-3.0.1/apache-kylin-3.0.1-bin-hadoop3.tar.gz</value>
     <description>Location to download Kylin Binary for Hadoop 3.1 + HBase 2.0 (includes Hortonworks HDP 3.0)</description>
  </property> 
 
