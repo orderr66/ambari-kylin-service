@@ -5,8 +5,8 @@
     <service>
       <name>KYLIN</name>
       <displayName>Kylin</displayName>
-      <comment>an open source Distributed Analytics Engine.</comment>
-      <version>2.1</version>
+      <comment>Apache Kylin is an distributed analytics engine.</comment>
+      <version>3.0.1</version>
       <components>
         <component>
           <name>KYLIN_ALL</name>

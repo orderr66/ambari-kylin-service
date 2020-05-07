@@ -216,7 +216,7 @@ kylin.security.saml.context-path=/kylin
 
 # Hadoop conf folder, will export this as "HADOOP_CONF_DIR" to run spark-submit
 # This must contain site xmls of core, yarn, hive, and hbase in one folder
-kylin.env.hadoop-conf-dir={{hadoop_conf_dir}}
+kylin.env.hadoop-conf-dir=/etc/hadoop/conf
 
 # Estimate the RDD partition numbers
 kylin.engine.spark.rdd-partition-cut-mb=10
