@@ -9,7 +9,7 @@ class KylinQuery(Script):
         import params
         self.install_packages(env)
         Directory([params.install_dir],
-              mode=0777,
+              mode=0755,
               cd_access='a',
               create_parents=True
         )
